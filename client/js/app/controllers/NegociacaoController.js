@@ -37,7 +37,7 @@ class NegociacaoController {
         this._inputData.focus();
     }
 
-<<<<<<< HEAD:client/js/app/controllers/NegociacaoController.js
+
     apaga() {
         this._listaNegociacoes.esvazia();
         this._negociacoesView.update(this._listaNegociacoes);
@@ -45,8 +45,8 @@ class NegociacaoController {
         this._mensagemView.update(this._mensagem);
        }
        
-}
-=======
+
+
     importaNegociacoes() {
         let service = new NegociacaoService();
         service
@@ -67,6 +67,3 @@ class NegociacaoController {
     }
 
 }
-
-
->>>>>>> master:js/app/controllers/NegociacaoController.js
